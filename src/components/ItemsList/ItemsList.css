@@ -1,0 +1,12 @@
+.items-list {
+	background: #ebedee;
+}
+.items-list__inner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+

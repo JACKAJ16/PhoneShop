@@ -1,0 +1,140 @@
+.modal {
+	background: #000;
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	top: 0;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.modal__inner {
+	position: sticky;
+	width: 370px;
+	height: 590px;
+	margin: 0 auto;
+	top: 6%;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 10000;
+	padding: 20px;
+	overflow-y: auto;
+}
+
+.modal__header {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.modal__item-price {
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.modal-off {
+	display: none;
+}
+
+.modal__img {
+	max-width: 50px;
+	margin-right: 10px;
+}
+
+.modal__item {
+	display: flex;
+	border: 1px solid lightgrey;
+	margin-top: 10px;
+	padding: 10px;
+	position: relative;
+}
+
+.modal__item-container {
+	max-height: 390px;
+	overflow-y: auto;
+}
+
+.modal__footer {
+	position: absolute;
+	bottom: 60px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 328px;
+}
+
+.modal__delete-item-btn {
+	background: none;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 25px;
+  height: 25px;
+  opacity: 0.3;
+  border-radius: 20px;
+  border: 1px solid red;
+  outline: none;
+  cursor: pointer;
+}
+.modal__delete-item-btn:hover,
+.close-modal-btn:hover {
+  opacity: 1;
+}
+.modal__delete-item-btn:before, .modal__delete-item-btn:after {
+	top: 4px;
+  position: absolute;
+  left: 11px;
+  content: ' ';
+  height: 15px;
+  width: 2px;
+  background-color: red;
+}
+.modal__delete-item-btn:before,
+.close-modal-btn:before {
+  transform: rotate(45deg);
+}
+.modal__delete-item-btn:after,
+.close-modal-btn:after {
+  transform: rotate(-45deg);
+}
+
+.close-modal-btn {
+  outline: none;
+	position: absolute;
+	top: 0;
+	right: 0;
+  width: 32px;
+  height: 32px;
+  opacity: 0.3;
+  border-radius: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-modal-btn:before, .close-modal-btn:after {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  content: ' ';
+  height: 33px;
+  width: 2px;
+  background-color: #333;
+}
+
+.modal__footer-total {
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+@media(max-width: 370px) {
+	.modal__inner {
+		width: 300px;
+	}
+
+	.modal__footer {
+		width: 250px;
+	}
+}
+
+

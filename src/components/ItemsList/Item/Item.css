@@ -1,0 +1,22 @@
+.item {
+	background: #fff;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	transition: all .3s;
+}
+
+.item:hover {
+	box-shadow: 0 0 10px #000;
+}
+
+.item__img {
+	max-width: 245px;
+	margin-bottom: 20px;
+}
+
+.item__paragraph {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
