@@ -1,6 +1,6 @@
 ## Phone store
 
-![PhoneStore](https://user-images.githubusercontent.com/8159055/83081171-b4f25c00-a088-11ea-9361-0ec45ba75d5d.gif)
+![bandicam 2020-05-28 19-28-21-360](https://user-images.githubusercontent.com/8159055/83168246-dd766680-a119-11ea-99d7-d3fccd1dc5a0.gif)
 
 Phone store app is using local file to display phones list. Redux is used for state management. You can add item to cart, delete item, change item's quantity, delete all items from cart at once or you can test Paypal Sanbox and proceed to make sandbox purchuase with next credentials: 
 
